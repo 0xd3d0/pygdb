@@ -22,19 +22,20 @@
 # SOFTWARE.
 #
 
-# Authors:
+# Original Authors:
 #   Michael Eddington (mike@phed.org)
 
-# $Id$
+#------------------------------------------------------------------------------
+# Modified to suite our needs by the SAS TEAM
 
 
 from distutils.core import setup
 
 setup(name='pygdb',
-      version='0.2',
+      version='0.2.1',
       description='Python wrapper for GDB debugger',
-      author='Michael Eddington and Frank Laub',
-      author_email='mike@phed.org',
+      author='SAS TEAM',
+      author_email='stare-c-sas@cisco.com',
       url='http://code.google.com/p/pygdb/',
       packages=['pygdb'],
       package_data={'pygdb': ['osx/*']},

@@ -418,5 +418,6 @@ if __name__ == '__main__':
 		run_test(test4)
 		run_test(test5)
 		run_test(test6)
+		run_test('1^done')
 
 	main()
